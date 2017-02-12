@@ -1,0 +1,10 @@
+<xml>
+    <URL><![CDATA[http://xxegoi.xicp.net/api]]></URL>
+    <ToUserName><![CDATA[wxebe795a8b952c6e5]]></ToUserName>
+    <FromUserName><![CDATA[qweewe]]></FromUserName>
+    <CreateTime>123123</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[hello]]></Content>
+    <MsgId>12313</MsgId>
+    <Encrypt><![CDATA[Q7LbPvfdx6DRUv5aS/lYLMpW2U7FMi59xQbIk6XIoWcd2xHD3QhqNd64Qqjbyq+pPXmjnNfwQJLUhpgLt6cT2GxEfDJZ2za30hvA1NXxQq3Vj/XGfz+wpzcjxZTq3Iah2tzntCyz2VSb92zEyLW4Q2uDPXIdrtkZhQENlS+LQUAnPKASflgY5YBOwOh6kV7+inM+KIuE/jEJ60qj0lc2TbRkXFSzXeV6XEeMQ+ieMjgwXViKNL5cp1Cz6sO2h5Qgg0v3DxwoiJh3GBQzOwtZ2fmbh1Kch+ftRyLW3G19SrCwQVQApoWY95MUWB/HZji1itv2u15+57CQOBc1ulGStaBn1Ti6IgdriIEqq2un72Urb0v/Wqq60JOfa9UM+2PXgZ5eM4NZrNq2/pkRaYeMWSlnevE/pCrWhwsmLjaKHGBk9Hvp20bpg9JVWyaoTSMeJC2SaIdytXMVYqyL/dKgAw==]]></Encrypt>
+</xml>
