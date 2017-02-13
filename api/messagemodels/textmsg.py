@@ -4,13 +4,9 @@ from xml.dom import minidom as mini
 
 class textmsg(basemsg):
 
-    def __int__(self,data):
-        '''
-        暂时未知道怎样继承父类属性
-        :param data:
-        :return:
-        '''
-        pass
+    def __init__(self,data):
+        basemsg.__init(self,data)
+        self.Content=self.getnodesvalue('Content')
 
     @property
     def Content(self):
