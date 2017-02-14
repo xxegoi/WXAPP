@@ -4,15 +4,15 @@ from xml.dom import minidom
 class basemsg():
 
     def __int__(self,data):
-        root=minidom.parseString(data)
-        self.ToUserName=root.getElementsByTagName('ToUserName')[0].firstChild.wholeText
-        self.MsgID=root.getElementsByTagName('MsgID')[0].firstChild.wholeText
-        self.MsgType=root.getElementsByTagName('MsgType')[0].firstChild.wholeText
-        self.CreateTime=root.getElementsByTagName('CreateTime')[0].firstChild.wholeText
-        self.FromUserName=root.getElementsByTagName('FromUserName')[0].firstChild.wholeText
+        self.root=minidom.parseString(data)
+        self.ToUserName=self.getnodesvalue('ToUserName')
+        self.MsgID=self.getnodesvalue('MsgID')
+        self.MsgType=self.getnodesvalue('MsgType')
+        self.CreateTime=self.getnodesvalue('CreateTime')
+        self.FromUserName=self.getnodesvalue('FromUserName')
 
-    def getnodesvalue(self,tagName,root):
-        return root.getElementsByTagName(tagName)[0].firstChild.wholeText
+    def getnodesvalue(self,tagName):
+        return self.root.getElementsByTagName(tagName)[0].firstChild.wholeText
 
 
     @property
